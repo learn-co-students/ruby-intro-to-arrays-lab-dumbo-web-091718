@@ -4,11 +4,7 @@ def instantiate_new_array
 end
 
 def array_with_two_elements
-  arr = []
-  while arr.length <= 2
-    arr << [true, false]*2
-  end
-  return arr
+  return [1,2]
 end
 
 def first_element(arr)
